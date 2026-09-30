@@ -1,3 +1,14 @@
+#for maps Z
+
+library(tidyverse)
+library(readxl)
+library(leaflet)
+library(dplyr)
+library(tidygeocoder)
+library(shinyWidgets)
+library(leaflet.extras)
+
+
 # Info for Allen's Creek (WBID: 1604, 1604B1)
 allens <- function(input,value){
   observeEvent(input[[value]], {  
